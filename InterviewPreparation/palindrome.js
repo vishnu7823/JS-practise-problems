@@ -1,3 +1,5 @@
+//program to check the palindrome 
+
 const palindrome = (str)=>{
 
 const reverseString = str.split('').reverse().join('');  //reverse the string
