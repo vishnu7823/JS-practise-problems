@@ -13,3 +13,12 @@ function findduplicate(arr){
 }
 
 console.log(findduplicate([1,2,3,4,1,4]));
+
+
+//using set object - it will store only unique elements in it
+
+function duplicate(array){
+    
+    return [...new Set(array)]; //...  use to conver the set into array
+}
+console.log(duplicate([1,2,1,3,5,3,6,5,6]));
